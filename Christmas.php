@@ -18,10 +18,10 @@ $hours=$hours1-24*$days;
 
 $results= [
     "time" => $time,
-    "days" => floor($days),
-    "hours" => floor($hours),
-    "minutes" => floor($minutes),
-    "seconds" => floor($seconds)
+    "days" => ($days),
+    "hours" => ($hours),
+    "minutes" => ($minutes),
+    "seconds" => ($seconds)
 ];
 echo json_encode($results);
 ?>
